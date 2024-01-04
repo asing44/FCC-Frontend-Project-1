@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #535657;
+}
+
+body {
+  background-color: #F4FAFF;
+}
+
+.quote-container {
+  display: grid;
+  grid-template: 1fr 25%/100%;
+  height: 50vh;
+  width: 70vw;
+}
+.quote-container .quote-w {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.quote-container .quote-w .quote {
+  display: grid;
+  height: 100%;
+  place-content: center;
+  font-size: 2.5rem;
+}
+.quote-container .quote-w .author {
+  font-variant: small-caps;
+}
+.quote-container .quote-buttons-w {
+  display: flex;
+  position: relative;
+  padding: 1rem 2rem;
+}
+.quote-container .quote-buttons-w .share {
+  display: flex;
+  height: 100%;
+  padding: 0.1rem;
+  overflow: hidden;
+}
+.quote-container .quote-buttons-w .share .share-icon {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 1rem;
+}
+.quote-container .quote-buttons-w .spacing {
+  flex: 1;
+}
+.quote-container .quote-buttons-w .new-quote {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: unset;
+  border: 2px solid gray;
+}
+
+/*# sourceMappingURL=App.css.map */
