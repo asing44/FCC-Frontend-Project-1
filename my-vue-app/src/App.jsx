@@ -5,8 +5,8 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      quote: "",
-      author: ""
+      quote: "There are no traffic jams on the extra mile.",
+      author: "Zig Ziglar"
     };
     this.requestQuote = this.requestQuote.bind(this);
   };
