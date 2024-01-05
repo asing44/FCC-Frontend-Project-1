@@ -29,13 +29,13 @@ class App extends React.Component {
     return (
       <div>
         <h1>Random quote...</h1>
-        <div className="quote-container">
+        <div id="quote-box" className="quote-container">
           <div className="quote-w">
-            <div className="quote">{this.state.quote}</div>
-            <div className="author">- {this.state.author}</div>
+            <div id="text" className="quote">{this.state.quote}</div>
+            <div id="author" className="author">- {this.state.author}</div>
           </div>
-          <div className="quote-buttons-w">
-            <a href="twitter.com/intent/tweet" className="share twitter">
+          <div id="new-quote" className="quote-buttons-w">
+            <a href="twitter.com/intent/tweet" id="tweer-quote" className="share twitter">
               <img className="share-icon" src="twitter-square-logo-svgrepo-com.svg" alt="Twitter logo" />
             </a>
             <a href="" className="share facebook">
